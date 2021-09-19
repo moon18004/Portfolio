@@ -15,12 +15,13 @@
 </head>
 <body>
     <nav id="navbar">
-        <div class="navbar__logo"></div>
+        <div class="navbar__logo">
             <i class ="fas fa-moon"></i>
             <a href="#">Moon</a>
-        <div class="nav__manu"></div>
+        </div>
+        <div class="nav__menu"></div>
             <ul class="navbar__menu">
-                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item active">Home</li>
                 <li class="navbar__menu__item">About</li>
                 <li class="navbar__menu__item">Skills</li>
                 <li class="navbar__menu__item">My work</li>
@@ -30,7 +31,7 @@
     </nav>
     <!-- Home -->
     <section id="Home">
-        <img src="imgs/my_photo.jpg" alt="Moon's profile photo" class="home__avatar">
+        <img src="imgs/my_photo.jpg" alt="Moon's profile photo" class="home__avatar" width="200">
         <h1 class="home__title">Hello, <br>I am Moon</h1>
         <h2 class="home__description">A software Engineer currently residing in Rexburg, ID</h2>
         <button class="home__contact">Contact Me</button>
@@ -137,11 +138,12 @@
                 <div class="tools">
                     <h3 class="skillset__title">Tools</h3>
                     <ul class="tools__list">
-                    <li><span>Visual Studio code</span></li>
-                    <li><span>Visual Studio</span></li>
-                    <li><span>MySQL</span></li>
-                    <li><span>Oracle SQL</span></li>
-                    <li><span>Verilog</span></li></ul>
+                        <li><span>Visual Studio code</span></li>
+                        <li><span>Visual Studio</span></li>
+                        <li><span>MySQL</span></li>
+                        <li><span>Oracle SQL</span></li>
+                        <li><span>Verilog</span></li>
+                    </ul>
                 </div>
                 <div class="ect">
                     <h3 class="skillset__title">Etc</h3>
@@ -181,14 +183,20 @@
             <div class="testimonial">
                 <img src="imgs/testimonial.jpg" alt="" class="testimonial__avata">
                 <div class="testimonial__speech-bubble">
-                    <p>아무말</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                        fuga libero nulla eveniet aperiam laborum, quis provident
+                        quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+                        explicabo tempora, dignissimos accusantium inventore ducimus!</p>
                     <p class= "name"><a href="">Shyvana</a> / lol</p>
                 </div>
             </div>
             <div class="testimonial">
                 <img src="imgs/testimonial.jpg" alt="" class="testimonial__avata">
                 <div class="testimonial__speech-bubble">
-                    <p>아무말</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                        fuga libero nulla eveniet aperiam laborum, quis provident
+                        quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+                        explicabo tempora, dignissimos accusantium inventore ducimus!</p>
                     <p class= "name"><a href="">Mola</a> / lol</p>
                 </div>
             </div>
@@ -201,10 +209,14 @@
         <h2 class="contact_email">moon90@purnsup.com</h2>
         <div class="contact__links">
             <a href="https://github.com/moon18004/Portfolio.git" target="_blank">
-                <i class="fab fa-githib"></i></a>
-            <a href="#" target ="_blank"><i class ="fa fa-linkedin-square"></i></a>
+                <i class="fab fa-github"></i></a>
+            <a href="#" target ="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <p class="contact__rights">2021 Dream Coding Moon - All rights reserved</p>
     </section>
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+      </button>
 </body>
 </html>
