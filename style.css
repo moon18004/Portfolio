@@ -14,6 +14,10 @@
     --color-orange: #feb546;
     --color-black: #000000;
 
+    --color-navy: #0f1a7a;
+    --color-purple: #852a9c;
+
+
     /* Font size */
     --font-large: 48px;
     --font-medium: 28px;
@@ -93,8 +97,11 @@ p{
     z-index: 1;
 }
 #navbar.navbar--dark{
-    background-color: var(--color-pink);
+    background-color: var(--color-navy);
+    /* background-color: var(--color-purple); */
+    opacity: 0.85;
     padding: 8px;
+    
 }
 .navbar__menu{
     display:flex;
@@ -118,8 +125,10 @@ p{
     border-radius: 4px;
 } */
 .navbar__menu__item:hover{
+    /* border-color:var(--color-white);
+    background: var(--color-dark-pink); */
     border-color:var(--color-white);
-    background: var(--color-dark-pink);
+    background: var(--color-purple);
     
 }
 .navbar__toggle-btn{
@@ -131,9 +140,9 @@ p{
 }
 /* Home */
 #home{
-    background:url('imgs/background.png') center/cover no-repeat;
+    background:url('imgs/universe5.jpg') center/cover no-repeat;
     padding: 40px;
-    padding-top: 120px;
+    padding-top: 175px;
     text-align:center;
 }
 .home__avatar{
@@ -156,7 +165,7 @@ p{
     border-radius: 4px;
 }
 .home__contact:hover{
-    background-color: var(--color-dark-pink);
+    background-color: var(--color-purple);
 }
 
 /* section common */
@@ -201,7 +210,8 @@ p{
 }
 .job{
     display:flex;
-    align-items: center;   
+    align-items: center;
+    margin-top:10px;
 }
 .job__logo{
     width: 60px;
@@ -265,6 +275,9 @@ p{
 .etc{
     padding:20px;
 }
+.ect h3{
+    margin-top: 25px;
+}
 
 /* Work */
 .work__categories{
@@ -278,7 +291,7 @@ p{
 }
 .category__btn.selected,
 .category__btn:hover{
-    background-color: var(--color-pink);
+    background-color: var(--color-navy);
     color: var(--color-white);
 }
 .category__btn.active .category__count,
@@ -396,7 +409,7 @@ p{
 }
 /* Contact */
 #contact{
-    background-color: var(--color-pink);
+    background-color: var(--color-navy);
 }
 .contact__title, 
 .contact__email,
@@ -424,7 +437,7 @@ p{
     height: 70px;
     font-size: 50px;
     color: white;
-    background-color: var(--color-pink);
+    background-color: var(--color-navy);
     border-radius: 50%;
     opacity:  0;
     pointer-events: none;
