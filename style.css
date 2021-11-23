@@ -44,6 +44,9 @@ body{
     font-family:'Open Sans', sans-serif;
     cursor: default;
 }
+.logo{
+    width: 50px;
+}
 a{
     text-decoration: none;
     color: var(--color-white);
@@ -110,6 +113,8 @@ p{
 .navbar__logo{
     font-size:var(--font-medium);
     font-weight:var(--weight-semi-bold);
+    display: flex;
+    align-items:center;
     color: white;
 }
 .navbar__menu__item{
